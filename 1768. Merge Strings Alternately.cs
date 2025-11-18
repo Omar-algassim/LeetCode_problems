@@ -10,7 +10,6 @@ public class Solution {
     public string MergeAlternately(string word1, string word2) {
         string result = "";
         int length = word1.Length > word2.Length ? word1.Length : word2.Length;
-        Console.WriteLine(length);
         for (var i = 0; length > i; i++) {
             if (i < word1.Length) {
                 result += word1[i];
